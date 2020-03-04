@@ -10,6 +10,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+
+
 public class LocalWordService extends Service {
     private IBinder mBinder = new MyBinder();
     private List<String> resultList = new ArrayList<>();
